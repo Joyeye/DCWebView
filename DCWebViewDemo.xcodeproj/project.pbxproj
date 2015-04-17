@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFAD177F1ADE16AE00F53123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD177E1ADE16AE00F53123 /* main.m */; };
+		CFAD17821ADE16AE00F53123 /* DCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17811ADE16AE00F53123 /* DCAppDelegate.m */; };
+		CFAD17851ADE16AE00F53123 /* DCWebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17841ADE16AE00F53123 /* DCWebViewDemoViewController.m */; };
+		CFAD17881ADE16AF00F53123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAD17861ADE16AF00F53123 /* Main.storyboard */; };
+		CFAD178A1ADE16AF00F53123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAD17891ADE16AF00F53123 /* Images.xcassets */; };
+		CFAD178D1ADE16AF00F53123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFAD178B1ADE16AF00F53123 /* LaunchScreen.xib */; };
+		CFAD17991ADE16AF00F53123 /* DCWebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17981ADE16AF00F53123 /* DCWebViewDemoTests.m */; };
+		CFAD17B51ADE16D900F53123 /* DCUIWebViewImp.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17A61ADE16D900F53123 /* DCUIWebViewImp.m */; };
+		CFAD17B61ADE16D900F53123 /* DCUIWebViewNavigationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17A81ADE16D900F53123 /* DCUIWebViewNavigationImpl.m */; };
+		CFAD17B71ADE16D900F53123 /* DCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17AA1ADE16D900F53123 /* DCWebView.m */; };
+		CFAD17B81ADE16D900F53123 /* DCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17AC1ADE16D900F53123 /* DCWebViewController.m */; };
+		CFAD17B91ADE16D900F53123 /* DCWebViewNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17AE1ADE16D900F53123 /* DCWebViewNavigation.m */; };
+		CFAD17BA1ADE16D900F53123 /* DCWebViewNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17B01ADE16D900F53123 /* DCWebViewNavigationBar.m */; };
+		CFAD17BB1ADE16D900F53123 /* DCWKWebViewImp.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17B21ADE16D900F53123 /* DCWKWebViewImp.m */; };
+		CFAD17BC1ADE16D900F53123 /* DCWKWebViewNavigationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD17B41ADE16D900F53123 /* DCWKWebViewNavigationImpl.m */; };
+		CFEF47561ADE3CD400EC5F95 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF47551ADE3CD400EC5F95 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAD17931ADE16AF00F53123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAD17711ADE16AE00F53123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAD17781ADE16AE00F53123;
+			remoteInfo = DCWebViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFAD17791ADE16AE00F53123 /* DCWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAD177D1ADE16AE00F53123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAD177E1ADE16AE00F53123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFAD17801ADE16AE00F53123 /* DCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCAppDelegate.h; sourceTree = "<group>"; };
+		CFAD17811ADE16AE00F53123 /* DCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCAppDelegate.m; sourceTree = "<group>"; };
+		CFAD17831ADE16AE00F53123 /* DCWebViewDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCWebViewDemoViewController.h; sourceTree = "<group>"; };
+		CFAD17841ADE16AE00F53123 /* DCWebViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCWebViewDemoViewController.m; sourceTree = "<group>"; };
+		CFAD17871ADE16AF00F53123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFAD17891ADE16AF00F53123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFAD178C1ADE16AF00F53123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFAD17921ADE16AF00F53123 /* DCWebViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCWebViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAD17971ADE16AF00F53123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAD17981ADE16AF00F53123 /* DCWebViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCWebViewDemoTests.m; sourceTree = "<group>"; };
+		CFAD17A51ADE16D900F53123 /* DCUIWebViewImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUIWebViewImp.h; sourceTree = "<group>"; };
+		CFAD17A61ADE16D900F53123 /* DCUIWebViewImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCUIWebViewImp.m; sourceTree = "<group>"; };
+		CFAD17A71ADE16D900F53123 /* DCUIWebViewNavigationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUIWebViewNavigationImpl.h; sourceTree = "<group>"; };
+		CFAD17A81ADE16D900F53123 /* DCUIWebViewNavigationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCUIWebViewNavigationImpl.m; sourceTree = "<group>"; };
+		CFAD17A91ADE16D900F53123 /* DCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebView.h; sourceTree = "<group>"; };
+		CFAD17AA1ADE16D900F53123 /* DCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebView.m; sourceTree = "<group>"; };
+		CFAD17AB1ADE16D900F53123 /* DCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebViewController.h; sourceTree = "<group>"; };
+		CFAD17AC1ADE16D900F53123 /* DCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebViewController.m; sourceTree = "<group>"; };
+		CFAD17AD1ADE16D900F53123 /* DCWebViewNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebViewNavigation.h; sourceTree = "<group>"; };
+		CFAD17AE1ADE16D900F53123 /* DCWebViewNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebViewNavigation.m; sourceTree = "<group>"; };
+		CFAD17AF1ADE16D900F53123 /* DCWebViewNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebViewNavigationBar.h; sourceTree = "<group>"; };
+		CFAD17B01ADE16D900F53123 /* DCWebViewNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebViewNavigationBar.m; sourceTree = "<group>"; };
+		CFAD17B11ADE16D900F53123 /* DCWKWebViewImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWKWebViewImp.h; sourceTree = "<group>"; };
+		CFAD17B21ADE16D900F53123 /* DCWKWebViewImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWKWebViewImp.m; sourceTree = "<group>"; };
+		CFAD17B31ADE16D900F53123 /* DCWKWebViewNavigationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWKWebViewNavigationImpl.h; sourceTree = "<group>"; };
+		CFAD17B41ADE16D900F53123 /* DCWKWebViewNavigationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWKWebViewNavigationImpl.m; sourceTree = "<group>"; };
+		CFAD17BD1ADE180400F53123 /* DCARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCARCMacros.h; sourceTree = "<group>"; };
+		CFEF47551ADE3CD400EC5F95 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAD17761ADE16AE00F53123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF47561ADE3CD400EC5F95 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD178F1ADE16AF00F53123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAD17701ADE16AE00F53123 = {
+			isa = PBXGroup;
+			children = (
+				CFEF47551ADE3CD400EC5F95 /* WebKit.framework */,
+				CFAD17A41ADE16D900F53123 /* DCWebView */,
+				CFAD177B1ADE16AE00F53123 /* DCWebViewDemo */,
+				CFAD17951ADE16AF00F53123 /* DCWebViewDemoTests */,
+				CFAD177A1ADE16AE00F53123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAD177A1ADE16AE00F53123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD17791ADE16AE00F53123 /* DCWebViewDemo.app */,
+				CFAD17921ADE16AF00F53123 /* DCWebViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAD177B1ADE16AE00F53123 /* DCWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD17801ADE16AE00F53123 /* DCAppDelegate.h */,
+				CFAD17811ADE16AE00F53123 /* DCAppDelegate.m */,
+				CFAD17831ADE16AE00F53123 /* DCWebViewDemoViewController.h */,
+				CFAD17841ADE16AE00F53123 /* DCWebViewDemoViewController.m */,
+				CFAD17861ADE16AF00F53123 /* Main.storyboard */,
+				CFAD17891ADE16AF00F53123 /* Images.xcassets */,
+				CFAD178B1ADE16AF00F53123 /* LaunchScreen.xib */,
+				CFAD177C1ADE16AE00F53123 /* Supporting Files */,
+			);
+			path = DCWebViewDemo;
+			sourceTree = "<group>";
+		};
+		CFAD177C1ADE16AE00F53123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD177D1ADE16AE00F53123 /* Info.plist */,
+				CFAD177E1ADE16AE00F53123 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAD17951ADE16AF00F53123 /* DCWebViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD17981ADE16AF00F53123 /* DCWebViewDemoTests.m */,
+				CFAD17961ADE16AF00F53123 /* Supporting Files */,
+			);
+			path = DCWebViewDemoTests;
+			sourceTree = "<group>";
+		};
+		CFAD17961ADE16AF00F53123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD17971ADE16AF00F53123 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAD17A41ADE16D900F53123 /* DCWebView */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD17BD1ADE180400F53123 /* DCARCMacros.h */,
+				CFAD17A51ADE16D900F53123 /* DCUIWebViewImp.h */,
+				CFAD17A61ADE16D900F53123 /* DCUIWebViewImp.m */,
+				CFAD17A71ADE16D900F53123 /* DCUIWebViewNavigationImpl.h */,
+				CFAD17A81ADE16D900F53123 /* DCUIWebViewNavigationImpl.m */,
+				CFAD17A91ADE16D900F53123 /* DCWebView.h */,
+				CFAD17AA1ADE16D900F53123 /* DCWebView.m */,
+				CFAD17AB1ADE16D900F53123 /* DCWebViewController.h */,
+				CFAD17AC1ADE16D900F53123 /* DCWebViewController.m */,
+				CFAD17AD1ADE16D900F53123 /* DCWebViewNavigation.h */,
+				CFAD17AE1ADE16D900F53123 /* DCWebViewNavigation.m */,
+				CFAD17AF1ADE16D900F53123 /* DCWebViewNavigationBar.h */,
+				CFAD17B01ADE16D900F53123 /* DCWebViewNavigationBar.m */,
+				CFAD17B11ADE16D900F53123 /* DCWKWebViewImp.h */,
+				CFAD17B21ADE16D900F53123 /* DCWKWebViewImp.m */,
+				CFAD17B31ADE16D900F53123 /* DCWKWebViewNavigationImpl.h */,
+				CFAD17B41ADE16D900F53123 /* DCWKWebViewNavigationImpl.m */,
+			);
+			path = DCWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAD17781ADE16AE00F53123 /* DCWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAD179C1ADE16AF00F53123 /* Build configuration list for PBXNativeTarget "DCWebViewDemo" */;
+			buildPhases = (
+				CFAD17751ADE16AE00F53123 /* Sources */,
+				CFAD17761ADE16AE00F53123 /* Frameworks */,
+				CFAD17771ADE16AE00F53123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCWebViewDemo;
+			productName = DCWebViewDemo;
+			productReference = CFAD17791ADE16AE00F53123 /* DCWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFAD17911ADE16AF00F53123 /* DCWebViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAD179F1ADE16AF00F53123 /* Build configuration list for PBXNativeTarget "DCWebViewDemoTests" */;
+			buildPhases = (
+				CFAD178E1ADE16AF00F53123 /* Sources */,
+				CFAD178F1ADE16AF00F53123 /* Frameworks */,
+				CFAD17901ADE16AF00F53123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAD17941ADE16AF00F53123 /* PBXTargetDependency */,
+			);
+			name = DCWebViewDemoTests;
+			productName = DCWebViewDemoTests;
+			productReference = CFAD17921ADE16AF00F53123 /* DCWebViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAD17711ADE16AE00F53123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = DC;
+				TargetAttributes = {
+					CFAD17781ADE16AE00F53123 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CFAD17911ADE16AF00F53123 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CFAD17781ADE16AE00F53123;
+					};
+				};
+			};
+			buildConfigurationList = CFAD17741ADE16AE00F53123 /* Build configuration list for PBXProject "DCWebViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFAD17701ADE16AE00F53123;
+			productRefGroup = CFAD177A1ADE16AE00F53123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAD17781ADE16AE00F53123 /* DCWebViewDemo */,
+				CFAD17911ADE16AF00F53123 /* DCWebViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAD17771ADE16AE00F53123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD17881ADE16AF00F53123 /* Main.storyboard in Resources */,
+				CFAD178D1ADE16AF00F53123 /* LaunchScreen.xib in Resources */,
+				CFAD178A1ADE16AF00F53123 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD17901ADE16AF00F53123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAD17751ADE16AE00F53123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD17B71ADE16D900F53123 /* DCWebView.m in Sources */,
+				CFAD17851ADE16AE00F53123 /* DCWebViewDemoViewController.m in Sources */,
+				CFAD17821ADE16AE00F53123 /* DCAppDelegate.m in Sources */,
+				CFAD177F1ADE16AE00F53123 /* main.m in Sources */,
+				CFAD17BC1ADE16D900F53123 /* DCWKWebViewNavigationImpl.m in Sources */,
+				CFAD17B91ADE16D900F53123 /* DCWebViewNavigation.m in Sources */,
+				CFAD17B81ADE16D900F53123 /* DCWebViewController.m in Sources */,
+				CFAD17B61ADE16D900F53123 /* DCUIWebViewNavigationImpl.m in Sources */,
+				CFAD17BA1ADE16D900F53123 /* DCWebViewNavigationBar.m in Sources */,
+				CFAD17B51ADE16D900F53123 /* DCUIWebViewImp.m in Sources */,
+				CFAD17BB1ADE16D900F53123 /* DCWKWebViewImp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD178E1ADE16AF00F53123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD17991ADE16AF00F53123 /* DCWebViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFAD17941ADE16AF00F53123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAD17781ADE16AE00F53123 /* DCWebViewDemo */;
+			targetProxy = CFAD17931ADE16AF00F53123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFAD17861ADE16AF00F53123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAD17871ADE16AF00F53123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAD178B1ADE16AF00F53123 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAD178C1ADE16AF00F53123 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAD179A1ADE16AF00F53123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAD179B1ADE16AF00F53123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAD179D1ADE16AF00F53123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DCWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFAD179E1ADE16AF00F53123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DCWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFAD17A01ADE16AF00F53123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCWebViewDemo.app/DCWebViewDemo";
+			};
+			name = Debug;
+		};
+		CFAD17A11ADE16AF00F53123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCWebViewDemo.app/DCWebViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAD17741ADE16AE00F53123 /* Build configuration list for PBXProject "DCWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAD179A1ADE16AF00F53123 /* Debug */,
+				CFAD179B1ADE16AF00F53123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAD179C1ADE16AF00F53123 /* Build configuration list for PBXNativeTarget "DCWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAD179D1ADE16AF00F53123 /* Debug */,
+				CFAD179E1ADE16AF00F53123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAD179F1ADE16AF00F53123 /* Build configuration list for PBXNativeTarget "DCWebViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAD17A01ADE16AF00F53123 /* Debug */,
+				CFAD17A11ADE16AF00F53123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFAD17711ADE16AE00F53123 /* Project object */;
+}
